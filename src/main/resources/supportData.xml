@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root>
+	<data id="sysUser">
+		select userid as id, username as name from sys_user
+	</data>
+	<data id="sysOrg">
+		select OrgId as id,ParentOrgId as parentId,OrgName as name,OrgCode from sys_org
+	</data>
+	<data id="sysDict">
+		select code,data1 from sys_dict_tree_data  
+	</data>
+</root>
